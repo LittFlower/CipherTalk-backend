@@ -1,0 +1,40 @@
+{
+  "name": "chat-backend-api",
+  "version": "1.0.0",
+  "description": "基于Python Flask + MySQL的聊天应用后端API",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "test": "python test_api.py",
+    "install": "pip install -r requirements.txt",
+    "dev": "python app.py"
+  },
+  "keywords": [
+    "chat",
+    "api",
+    "flask",
+    "mysql",
+    "backend",
+    "messaging",
+    "friends",
+    "authentication"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/chat-backend-api.git"
+  },
+  "engines": {
+    "python": ">=3.8"
+  },
+  "dependencies": {
+    "Flask": "2.3.3",
+    "Flask-SQLAlchemy": "3.0.5",
+    "Flask-JWT-Extended": "4.5.3",
+    "PyMySQL": "1.1.0",
+    "bcrypt": "4.0.1",
+    "python-dotenv": "1.0.0",
+    "marshmallow": "3.20.1"
+  }
+}
